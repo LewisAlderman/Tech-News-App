@@ -17,12 +17,14 @@ const Article = ({ article, history }) => {
 			<a href={article.url} target="_blank" rel="noopener noreferrer">
 				Read full story
 			</a>
-			<p>
-				<span className="author">{article.author}</span>{" "}
-				<span className="seperator" /> {article.source.name}{" "}
-				<span className="seperator" />
-				{published(article.publishedAt)}
-			</p>
+			<footer>
+				<p>
+					<span className="author">{article.author}</span>{" "}
+					<span className="seperator" /> {article.source.name}{" "}
+					<span className="seperator" />
+					{published(article.publishedAt)}
+				</p>
+			</footer>
 		</article>
 	);
 };
