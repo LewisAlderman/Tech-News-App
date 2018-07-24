@@ -91,8 +91,7 @@ nav {
   padding: 0.75rem 2rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  font-weight: 100; }
+  align-items: center; }
   nav.hidden {
     transform: translateY(-100%);
     transition: transform 200ms ease-in-out; }
@@ -110,7 +109,8 @@ nav {
     font-weight: 100;
     align-self: center; }
     nav h1 a {
-      color: #f1f1f1; }
+      color: #f1f1f1;
+      font-weight: 100; }
   nav h1,
   nav a {
     transition: all 100ms ease-in-out; }
@@ -118,6 +118,11 @@ nav {
     nav a:hover {
       opacity: 0.9; }
 
+@media screen and (max-width: 420px) {
+  nav h1,
+  nav a {
+    font-size: 1.2rem;
+    font-weight: 200; } }
 .sk-spinner {
   position: absolute;
   left: 50%;

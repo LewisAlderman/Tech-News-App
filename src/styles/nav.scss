@@ -17,7 +17,6 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	font-weight: 100;
 
 	&::before {
 		position: absolute;
@@ -38,6 +37,7 @@ nav {
 
 		a {
 			color: #f1f1f1;
+			font-weight: 100;
 		}
 	}
 
@@ -47,6 +47,16 @@ nav {
 
 		&:hover {
 			opacity: 0.9;
+		}
+	}
+}
+
+@media screen and (max-width: 420px) {
+	nav {
+		h1,
+		a {
+			font-size: 1.2rem;
+			font-weight: 200;
 		}
 	}
 }
