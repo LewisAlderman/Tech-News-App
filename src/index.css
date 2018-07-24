@@ -73,6 +73,7 @@ div.img-container {
     max-height: 40vh;
     max-width: 620px; }
   #article footer {
+    margin-top: 2rem;
     font-size: 0.9rem; }
 
 @media screen and (min-width: 620px) {
