@@ -131,6 +131,28 @@ nav {
   top: 50%;
   transform: translate(-50%, -50%); }
 
+.fourohfour {
+  background: #17171d;
+  margin: -2.7rem -2rem 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .fourohfour h1,
+  .fourohfour h3 {
+    font-weight: 400;
+    margin: 0; }
+  .fourohfour h1 {
+    font-size: 4rem;
+    color: #fff; }
+  .fourohfour h3 {
+    font-size: 2rem;
+    color: #63636e; }
+  .fourohfour a {
+    color: #66bbff;
+    margin-top: 3rem; }
+
 :root {
   font-size: 16px; }
 

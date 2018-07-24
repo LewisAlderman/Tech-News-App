@@ -15,21 +15,19 @@ class FourOhFour extends Component {
 		return this.state.loading ? (
 			<Loading />
 		) : (
-			<React.Fragment>
-				<h1 className="animated fadeInUp" style={stylish}>
-					404
-				</h1>
+			<div className="fourohfour">
+				<h1 className="animated fadeInUp">404</h1>
 				<h3>Page not found</h3>
-			</React.Fragment>
+				<a
+					href="https://github.com/LewisAlderman/Tech-News-App/issues"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Report on Github
+				</a>
+			</div>
 		);
 	}
 }
-
-const stylish = {
-	fontWeight: "400",
-	fontSize: "20vw",
-	color: "#ddd",
-	marginBottom: "0",
-};
 
 export default FourOhFour;
