@@ -27,7 +27,11 @@ const Nav = () => {
 				<Link to="/">Home</Link>
 			</h1>
 
-			<a href="http://github.com" target="_blank" rel="noopener noreferrer">
+			<a
+				href="https://github.com/LewisAlderman/Tech-News-App"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
 				GitHub
 			</a>
 		</nav>
