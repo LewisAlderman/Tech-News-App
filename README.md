@@ -22,8 +22,27 @@ This React/Redux single-page site loads the latest top news headlines, from mult
 
 ### Installation
 
-- In your terminal application, navigate to where to want to clone the project folder
+##### Prerequisites
+
+* [Node.js](https://nodejs.org/en/)
+* [Yarn](https://yarnpkg.com/lang/en/)
+* A Web Browser (Chrome or Firefox typically)
+
+##### Steps
+
+- In your terminal application, navigate to where you want to clone the project folder
 - `git clone git@github.com:LewisAlderman/Tech-News-App.git`
 - `cd Tech-News-App`
 - `yarn`
 - `yarn start`
+
+#### Some Packages Used
+
+- **Axios**
+  - Handling of async API calls
+- **Redux-Thunk**
+  - Async actions
+- **Lodash**
+  - Utilised `throttle` for scroll events
+- **Moment**
+  - Easy relative date/time
