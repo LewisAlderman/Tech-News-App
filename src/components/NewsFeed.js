@@ -9,7 +9,11 @@ const NewsFeed = ({ articles, onLoad }) => {
 			<article className={"article-" + i} key={article.id} onLoad={onLoad}>
 				<Link to={"/articles/" + article.id}>
 					<div className="img-container">
-						<img src={article.urlToImage} alt="Source provided imagery" />
+						<img
+							className="lazyload"
+							data-src={article.urlToImage}
+							alt="Source provided imagery"
+						/>
 					</div>
 					<h2 className="headline">
 						{article.title.length < 120
