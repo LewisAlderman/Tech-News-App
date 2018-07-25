@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 //component
 const NewsFeed = ({ articles, onLoad }) => {
-	console.log("Articles: render");
 	return articles.map((article, i) => {
 		return (
 			<article className={"article-" + i} key={article.id} onLoad={onLoad}>

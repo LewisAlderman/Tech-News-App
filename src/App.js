@@ -47,7 +47,6 @@ class App extends Component {
 	}
 
 	render() {
-		console.log("App: render");
 		let { articles } = this.props;
 
 		if (Object.values(this.props.articles).length && window.pageYOffset < 250) {

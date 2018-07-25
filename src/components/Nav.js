@@ -20,8 +20,6 @@ const Nav = props => {
 		);
 	}
 
-	console.log("Nav: render");
-
 	return (
 		<nav>
 			<h1>
