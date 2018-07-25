@@ -109,7 +109,6 @@ nav {
   nav h1 {
     margin: 0;
     font-size: 1rem;
-    font-weight: 100;
     align-self: center; }
     nav h1 a {
       color: #f1f1f1;
@@ -126,7 +125,7 @@ nav {
   nav h1,
   nav a {
     font-size: 1.1rem;
-    font-weight: 400; } }
+    font-weight: 400 !important; } }
 .sk-spinner {
   position: absolute;
   left: 50%;
