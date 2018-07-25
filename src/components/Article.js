@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import moment from "moment";
+
 // component
 class Article extends React.Component {
 	componentDidMount() {

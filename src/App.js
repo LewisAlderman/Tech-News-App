@@ -12,7 +12,6 @@ import {
 	Switch,
 	Redirect,
 } from "react-router-dom";
-import { Object } from "core-js";
 
 // component
 
@@ -28,6 +27,10 @@ class App extends Component {
 	componentDidMount() {
 		this.props.onLoad();
 		this.handleNewsFeedLoad();
+	}
+
+	componentWillMount() {
+		return <Loading />;
 	}
 
 	handleNewsFeedLoad() {
@@ -69,7 +72,7 @@ class App extends Component {
 								<Route
 									exact
 									path="/articles/:id"
-									render={({ match, history }) => {
+									render={({ match }) => {
 										return articles[match.params.id] ? (
 											<Article id={+match.params.id} />
 										) : (

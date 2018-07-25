@@ -7,15 +7,16 @@ class FourOhFour extends Component {
 		this.state = { loading: true };
 	}
 
-	componentDidMount() {
+	shouldComponentUpdate(nextState) {
 		setTimeout(() => this.setState({ loading: false }), 400);
+		return !(nextState === this.state);
 	}
 
 	render() {
 		return this.state.loading ? (
 			<Loading />
 		) : (
-			<div className="fourohfour">
+			<div className="animated fadeIn fourohfour">
 				<h1 className="animated fadeInUp">404</h1>
 				<h3>Page not found</h3>
 				<a
