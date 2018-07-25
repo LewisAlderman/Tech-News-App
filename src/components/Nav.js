@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-const Nav = () => {
+const Nav = props => {
 	if (document.querySelector("nav")) {
 		const nav = document.querySelector("nav");
 		let originalScrollPos = window.scrollY;
@@ -24,7 +23,15 @@ const Nav = () => {
 	return (
 		<nav>
 			<h1>
-				<Link to="/">Home</Link>
+				<a
+					onClick={
+						props.location.pathname !== "/"
+							? () => props.history.goBack()
+							: null
+					}
+				>
+					{props.location.pathname === "/" ? "Latest" : "Back"}
+				</a>
 			</h1>
 
 			<a

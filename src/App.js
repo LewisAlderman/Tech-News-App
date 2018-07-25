@@ -58,7 +58,8 @@ class App extends Component {
 		return (
 			<Router>
 				<React.Fragment>
-					<Nav />
+					<Route render={props => <Nav {...props} />} />
+
 					<div className="container">
 						{this.state.loading ? (
 							<Loading />

@@ -5,8 +5,6 @@ import moment from "moment";
 const Article = ({ article, history }) => {
 	let published = date => moment(date).fromNow();
 
-	console.log(history);
-
 	return (
 		<article className="animated fadeIn" id="article">
 			<div className="img-container">

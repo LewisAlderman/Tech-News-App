@@ -116,6 +116,7 @@ nav {
       font-weight: 100; }
   nav h1,
   nav a {
+    cursor: pointer;
     transition: all 100ms ease-in-out; }
     nav h1:hover,
     nav a:hover {

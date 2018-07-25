@@ -43,6 +43,7 @@ nav {
 
 	h1,
 	a {
+		cursor: pointer;
 		transition: all 100ms ease-in-out;
 
 		&:hover {
