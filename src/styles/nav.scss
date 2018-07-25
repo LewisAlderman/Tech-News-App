@@ -49,6 +49,15 @@ nav {
 			opacity: 0.9;
 		}
 	}
+
+	svg {
+		transition: all 200ms ease-in-out;
+		padding-top: 0.25rem;
+
+		&:hover {
+			transform: scale(1.05);
+		}
+	}
 }
 
 @media screen and (max-width: 420px) {

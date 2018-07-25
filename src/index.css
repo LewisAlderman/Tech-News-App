@@ -120,6 +120,11 @@ nav {
     nav h1:hover,
     nav a:hover {
       opacity: 0.9; }
+  nav svg {
+    transition: all 200ms ease-in-out;
+    padding-top: 0.25rem; }
+    nav svg:hover {
+      transform: scale(1.05); }
 
 @media screen and (max-width: 420px) {
   nav h1,

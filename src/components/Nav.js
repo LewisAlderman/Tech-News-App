@@ -22,7 +22,7 @@ const Nav = props => {
 
 	return (
 		<nav>
-			<h1>
+			<h1 className="animated fadeIn">
 				<a
 					onClick={
 						props.location.pathname !== "/"
@@ -30,7 +30,26 @@ const Nav = props => {
 							: null
 					}
 				>
-					{props.location.pathname === "/" ? "Latest" : "Back"}
+					{props.location.pathname === "/" ? (
+						"Latest"
+					) : (
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="32"
+							height="32"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							strokeWidth="1.5"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							className="animated fadeInRight feather feather-arrow-left-circle"
+						>
+							<circle cx="12" cy="12" r="10" />
+							<polyline points="12 8 8 12 12 16" />
+							<line x1="16" y1="12" x2="8" y2="12" />
+						</svg>
+					)}
 				</a>
 			</h1>
 
