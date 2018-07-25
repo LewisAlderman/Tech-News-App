@@ -1,3 +1,5 @@
+<br><br>
+
 <p align="center">
   <img src="./docs/images/banner.png" />
 </p>
@@ -16,9 +18,9 @@
 
 ### What it is
 
-This React/Redux single-page site loads the latest top news headlines, from multiple sources including [The Verge]('https://www.theverge.com/'), [TechCrunch]('https://techcrunch.com/'), [Wired]('https://www.wired.co.uk/') and [TechRadar]('https://www.techradar.com/uk'), using an API.
+This React/Redux single-page site loads the latest top news headlines, from multiple sources including [The Verge](https://www.theverge.com/), [TechCrunch](https://techcrunch.com/), [Wired](https://www.wired.co.uk/) and [TechRadar](https://www.techradar.com/uk), using an API.
 
-#### Installation
+### Installation
 
 - In your terminal application, navigate to where to want to clone the project folder
 - `git clone git@github.com:LewisAlderman/Tech-News-App.git`
