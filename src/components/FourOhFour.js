@@ -12,6 +12,7 @@ class FourOhFour extends Component {
 	}
 
 	render() {
+		console.log("FourOhFour: render");
 		return this.state.loading ? (
 			<Loading />
 		) : (

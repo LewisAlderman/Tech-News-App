@@ -47,6 +47,7 @@ class App extends Component {
 	}
 
 	render() {
+		console.log("App: render");
 		let { articles } = this.props;
 
 		if (Object.values(this.props.articles).length && window.pageYOffset < 250) {
@@ -65,11 +66,7 @@ class App extends Component {
 							<Loading />
 						) : (
 							<Switch>
-								<Route
-									exact
-									path="/"
-									render={() => <NewsFeed onLoad={this.handleNewsFeedLoad} />}
-								/>
+								<Route exact path="/" render={() => <NewsFeed />} />
 								<Route
 									exact
 									path="/articles/:id"
