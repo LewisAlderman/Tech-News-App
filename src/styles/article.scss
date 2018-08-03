@@ -36,3 +36,28 @@
 		}
 	}
 }
+@media screen and (min-width: 1440px) {
+	#article {
+		font-size: calc(20px + 0.2vw);
+		width: 50vw;
+		max-width: 900px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: calc(90vh - 40px);
+
+		.img-container {
+			max-width: 100%;
+			margin: 0 0 2rem 0;
+		}
+
+		.article-title {
+			font-size: calc(2rem + 0.5vw);
+		}
+
+		& > *:not(div) {
+			padding: 0 calc(1rem + 1vw);
+			margin: 1rem;
+		}
+	}
+}
