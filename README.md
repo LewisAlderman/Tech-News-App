@@ -18,23 +18,23 @@
 
 ### What it is
 
-This React/Redux single-page site loads the latest top news headlines, from multiple sources including [The Verge](https://www.theverge.com/), [TechCrunch](https://techcrunch.com/), [Wired](https://www.wired.co.uk/) and [TechRadar](https://www.techradar.com/uk), using an API.
+This React/Redux single-page web app loads the latest top news headlines, from multiple sources including [The Verge](https://www.theverge.com/), [TechCrunch](https://techcrunch.com/), [Wired](https://www.wired.co.uk/) and [TechRadar](https://www.techradar.com/uk), leveraging an API.
 
 ### Installation
 
 ##### Prerequisites
 
 * [Node.js](https://nodejs.org/en/)
-* [Yarn](https://yarnpkg.com/lang/en/)
-* A Web Browser (Chrome or Firefox typically)
+* [Git](https://git-scm.com/)
+* A Web Browser (Chrome/Firefox/Safari)
 
 ##### Steps
 
 - In your terminal application, navigate to where you want to clone the project folder
 - `git clone git@github.com:LewisAlderman/Tech-News-App.git`
 - `cd Tech-News-App`
-- `yarn`
-- `yarn start`
+- `npm install`
+- `npm start`
 
 #### Some Packages Used
 
